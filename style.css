@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&family=Sankofa+Display&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-color: blanchedalmond;
+}
+
+html, body, main, div, p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color:yellow;
+}
+
+.listado li:hover{
+    transform: scale(1.2);
+}
+.listado{
+    display: flex;
+}
+
+.listado li{
+    padding-top:25px ;
+    padding-right: 280px;
+    height: 130px;
+    font-size: 70px;
+    list-style: none;
+    transition: transform 0.5s;
+}
+
+.listado li > a {
+    font-family: "Montserrat", sans-serif !important;
+    font-optical-sizing: auto !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+}
+
+.MErca{
+    height: 130px;
+    width: 170px;
+    border-radius: 35%;
+}
+a{
+text-decoration: none;
+}
+img{
+    height: 500px;
+    width: 900px;
+}
+.productosImags{
+    height: 400px;
+    width: 400px;
+}
+.maincontact{
+    background-image: url('17276.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bn4{
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+    padding-left: 500px;
+    transition: transform 0.3s;
+}
+#miFormulario {
+    width: 500px;
+    margin: 0 auto;
+    padding: 100px;
+    border: 10px solid #ccc;
+    background-color:cornsilk;
+}  
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 10px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color:gold;
+    color: black;
+    padding: 40px 40px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: yellow;
+}
+.msj{
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+}
